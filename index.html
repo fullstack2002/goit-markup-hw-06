@@ -380,6 +380,27 @@
                     <use href="./images/icons.svg#x-icon"></use>
                 </svg>
             </button>
+
+            <form class="contact-form">
+                <p class="contact-form-title">Оставьте свои данные, мы вам перезвоним</p>
+                <label class="contact-form-field">Имя
+                    <input name="user_name" class="contact-form-input" type="text" />
+                </label>
+                <label class="contact-form-field">Телефон
+                    <input name="user_phone" class="contact-form-input" type="tel" />
+                </label>
+                <label class="contact-form-field">Почта
+                    <input name="user_email" class="contact-form-input" type="email" />
+                </label>
+                <label class="contact-form-field">Комментарий
+                    <textarea name="user_message" class="contact-form-message" placeholder="Введите текст"></textarea>
+                </label>
+                <div class="contact-form-checkbox-wrapper">
+                    <input name="accept-policy" type="checkbox" class="contact-form-checkbox" required/>
+                    <label for="" class="contact-form-checkbox-label">Соглашаюсь с рассылкой и принимаю <a href=""> Условия договора</a></label>
+                </div>
+                <button type="submit" class="contact-form-submit-button">Отправить</button>
+            </form>
         </div>
     </div>
     <script src="./js/modal.js"></script>
